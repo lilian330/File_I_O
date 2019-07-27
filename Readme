@@ -1,0 +1,32 @@
+COMP2401 Assignment06
+
+Name:		Lilian Wang
+StudentNumber:	101087269
+
+Source file:
+		healthAssessment.c
+		textToBinary.c
+		Absenteeism.text
+		Readme
+
+Compiling:
+
+		Using Makefile to Compiling the program:
+			>>make
+
+		To test the program of Part1
+			>>./textToBinary
+
+		To check memory of Part1
+			>>valgrind ./textToBinary
+
+		There will create an "absenteeism.bin" file to store the binary data
+
+		Then, test the program of Part2 with the absenteeism.bin file:
+			>>./healthAssessment
+
+		To check memory of Part2 with the absenteeism.bin file:
+			>>valgrind ./healthAssessment
+
+		To clean up executable file and binary file :
+			>>make clean
